@@ -1,9 +1,7 @@
 # Workshop Listes Chaînées | Epitech 2022 | HUB |
 
-Aujourd'hui on va parler des listes chaînées, notion du C qui vous sera très utile pour le Pushswap et les projets graphiques pour votre 1ère année.
+Aujourd'hui on va parler des listes chaînées, notion du C qui vous sera très utile pour le `Pushswap` et les `projets graphiques` pour votre 1ère année.
 Le contenu du workshop va couvrir :
-
-Notamment :
 
 * Création et suppression des listes chaînées
 * Gestion des nodes
@@ -14,7 +12,7 @@ Pour ceux qui ont faits les workshops de listes chaînées durant la piscine, vo
 Voici un cours détaillé sur le fonctionnement théorique des listes chaînées:
 http://carl.seleborg.free.fr/cpp/cours/chap2/linked_list.html
 
-### Mini rappel des pointeurs
+### Rappel rapide sur les pointeurs
 
 Les pointeurs (*) servent à pointer une partie de mémoire comme des données, une fonction, une structure ou n'importe quel autre type de variable.
 
