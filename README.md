@@ -1,4 +1,4 @@
-Workshop Listes Chaînées | Epitech 2022 | HUB |
+#Workshop Listes Chaînées | Epitech 2022 | HUB |
 
 Aujourd'hui on va parler des listes chaînées, notion du C qui vous sera très utile pour le Pushswap et les projets graphiques pour votre 1ère année.
 Le contenu du workshop va couvrir :
@@ -199,26 +199,3 @@ Ici, toujours un peu dans la même vibe, on va cette fois ci essayer de supprime
 # 5 - Print
 
 Comme le dis le nom, ici le but est de pouvoir affiché tout les data->str de votre liste chainées en une seule fonction
-
-# 6 - Advanced iteration
-
-Ok on va commencer à s'amuser un peu.
-
-Et si on mélangait les listes chainées et les pointeurs sur fonction ?
-
-Le but de cette exercice est de faire une fonction générique pour manipuler les élements de votre liste chainées.
-
-```c
-void add_one(struct data *data)
-{
-    data->i += 1;
-}
-```
-
-Le but est de pouvoir passer cette fonction en paramètre de votre fonction d'iteration.
-
-Le prototype de cette fonction devra ressembler à ça.
-
-```c
-void iterate(node *node, void (*fn)(struct data *));
-```
