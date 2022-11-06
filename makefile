@@ -10,6 +10,9 @@ NAME	=	linked_list
 FOLDER	=	src/
 
 SRCS	=	$(FOLDER)main.c \
+			$(FOLDER)list.c \
+			$(FOLDER)free_list.c \
+			$(FOLDER)utils_list.c \
 
 OBJS	=	$(SRCS:.c=.o)
 

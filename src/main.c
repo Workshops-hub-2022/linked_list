@@ -23,5 +23,6 @@ struct data *create_data(int i, char *str)
 
 int main(int argc, char **argv)
 {
-    
+    (void)argc;
+    (void)argv;
 }
