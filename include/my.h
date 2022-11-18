@@ -13,25 +13,24 @@
 #include <stdbool.h>
 
 
-typedef struct list_element
-{
+typedef struct list_element_s {
     int value;
-    struct list_element *next;
-}list_element, *list;
+    struct list_element_s *next;
+}list_element_t;
 
 // list.c
-list new_elem(int value);
-list add_elem_back(list li, int value);
-list add_elem_front(list li, int value);
+list_element_t*new_elem(int value);
+list_element_t*add_elem_back(list_element_t*li, int value);
+list_element_t*add_elem_front(list_element_t*li, int value);
 
 // free_list.cd
-list pop_elem_back(list li);
-list pop_elem_front(list li);
-void clear_list(list li);
+list_element_t*pop_elem_back(list_element_t*li);
+list_element_t*pop_elem_front(list_element_t*li);
+void clear_list(list_element_t*li);
 
 // utils_list.c
-int length_list(list li);
-void print_list(list li);
-bool is_empty_list(list li);
+int length_list(list_element_t*li);
+void print_list(list_element_t*li);
+bool is_empty_list(list_element_t*li);
 
 #endif /* !MY_H_ */
